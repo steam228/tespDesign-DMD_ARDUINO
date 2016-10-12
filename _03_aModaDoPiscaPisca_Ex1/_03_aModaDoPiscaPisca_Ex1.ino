@@ -1,7 +1,26 @@
-//Aula n3 Digital Input
+//TESP Design para Media Digitais
+//Computação Física
+//Anotado em Português
+//por André Rocha
+
+//Digital Output
 
 
-#define luzita1 10  //O que é a mesma coisa que:
+///////////////////////////////////////////////////////////////////////////(///////////
+//////                                                                           //////
+////// E X E R C I C I O  UM - A Moda do Pisca Pisca para Pessoas com imaginação //////
+////// e alguns conhecimentos prévios de Processing (por exemplo)                //////
+//////                                                                           //////
+///////////////////////////////////////////////////////////////////////////////////////
+
+//É a mesma coisa que o Anterior mas para muito mais luzes, LEDS... 
+//Uma Autentica Árvore de Natal!!
+
+//tb cumpre objectivos do vosso exercicio 1:
+//Usar conhecimentos previos de programação ilustrar narrativas fantasiosas ou reais com ciclos For, While
+//apenas para piscar LEDS
+
+#define luzita1 10 
 //int luzitaVerde = 10;
 #define luzita2 9
 #define luzita3 8
