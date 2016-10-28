@@ -103,8 +103,9 @@ void loop() {
   //Analisa o estado corrente da maçaneta face ao anterior (foi completa a acção?)
   if (estadoDoBotao == true && estadoAnteriorDoBotao == false) {
     //Serial.println("carregou"); //descomentar para debug
-    corredor = true; porta = true; //// MUITO IMPORTANTE!! GRAVA PASSAGEM NO CORREDOR!!!
+    corredor = true; //// MUITO IMPORTANTE!! GRAVA PASSAGEM NO CORREDOR!!!
     // O mesmo de acima, se a porta já tinha sido aberta quer dizer que é a segunda acção logo completa a sequencia de entrar!
+    
     if (porta == true && lock == false) {
       //Serial.println("entrou"); //descomentar para debug
       counter++;
@@ -164,8 +165,9 @@ boolean rodaMac () {
       rodou = false;
       zerou = false;
       return true;
-      Serial.println("abriu porta");
+      
     }
+    
     rotAnt = rotacao;
 }
 
